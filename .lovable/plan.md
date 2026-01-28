@@ -87,6 +87,7 @@ Scrolling badges/cards for:
 - Cisco Network Technician Career Path 
 - 5-Day AI Agents Intensive Course with Google
 - Software Engineering
+- Google Cloud Career Launchpad Cloud Engineer Track
 - Postman API Fundamentals Student Expert
 
 

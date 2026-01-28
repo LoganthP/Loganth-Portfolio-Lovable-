@@ -14,6 +14,7 @@ const Certifications = () => {
     '5-Day AI Agents Intensive Course with Google',
     'Software Engineering',
     'Postman API Fundamentals Student Expert',
+    'Google Cloud Career Launchpad Cloud Engineer Track',
   ];
 
   return (
