@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Instagram } from 'lucide-react';
+import { ArrowDown, Linkedin } from 'lucide-react';
 import { useMagneticHover } from '@/hooks/useMagneticHover';
 
 const MagneticButton = ({ children, href, label }: { children: React.ReactNode; href: string; label: string }) => {
@@ -32,9 +32,7 @@ const MagneticButton = ({ children, href, label }: { children: React.ReactNode; 
 
 const Hero = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/LoganthP', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/loganth-p-158667280/', label: 'LinkedIn' },
-    { icon: Instagram, href: 'https://www.instagram.com/tamojikatochiri/', label: 'Instagram' },
   ];
 
   const name = 'LOGANTH';
