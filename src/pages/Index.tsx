@@ -22,16 +22,16 @@ const Index = () => {
         <Hero />
         
         {/* Marquee divider */}
-        <div className="py-8 border-y border-border/30 overflow-hidden">
-          <Marquee text="DEVELOPER • SECURITY ANALYST • CREATIVE • INNOVATOR •" />
+        <div className="py-12 border-y border-border/20 overflow-hidden bg-card/20">
+          <Marquee text="DEVELOPER • SECURITY ANALYST • CREATIVE • INNOVATOR •" speed={30} />
         </div>
         
         <About />
         <WhatIDo />
         
-        {/* Second marquee */}
-        <div className="py-8 border-y border-border/30 overflow-hidden">
-          <Marquee text="BUILD • PROTECT • INNOVATE • SECURE • CREATE •" />
+        {/* Second marquee - reversed direction */}
+        <div className="py-12 border-y border-border/20 overflow-hidden bg-card/20">
+          <Marquee text="BUILD • PROTECT • INNOVATE • SECURE • CREATE •" direction="right" speed={35} />
         </div>
         
         <Experience />
