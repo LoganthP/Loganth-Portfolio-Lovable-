@@ -148,7 +148,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.6 }}
         >
-          Based in Mysuru, India
+          Based in India
         </motion.p>
 
         {/* Social links with magnetic effect */}
