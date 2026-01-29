@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Github, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const Contact = () => {
@@ -43,6 +43,16 @@ const Contact = () => {
               >
                 <Mail className="w-5 h-5" />
                 <span>loganthp19@gmail.com</span>
+                <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+              </motion.a>
+              
+              <motion.a
+                href="tel:+917013660227"
+                className="flex items-center gap-3 text-foreground hover:text-primary transition-colors group"
+                whileHover={{ x: 5 }}
+              >
+                <Phone className="w-5 h-5" />
+                <span>+91-7013660227</span>
                 <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </motion.a>
               
