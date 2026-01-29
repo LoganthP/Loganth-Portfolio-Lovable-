@@ -1,4 +1,4 @@
-# Welcome to my Portfolio
+< div align center># Welcome to my Portfolio </div>
 
 ## Project info
 
