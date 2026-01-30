@@ -47,7 +47,7 @@ const About = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               As a passionate developer and cybersecurity enthusiast, I combine creative 
               problem-solving with security-first thinking. Currently pursuing B.Tech in 
-              Computer Science & Engineering at VVCE, I specialize in building robust 
+              Computer Science & Engineering, I specialize in building robust 
               applications while ensuring they remain protected against modern threats.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
