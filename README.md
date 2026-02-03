@@ -4,12 +4,6 @@ A modern developer portfolio website built using **TypeScript, Tailwind CSS, and
 
 ---
 
-## 🚀 Live Demo
-
-🔗 https://loga19portfolio.lovable.app/
-
----
-
 ## 💡 About The Project
 
 This is a fully responsive personal portfolio designed to highlight:
